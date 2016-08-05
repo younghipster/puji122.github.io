@@ -1,0 +1,124 @@
+/*!
+style web
+*/
+/* =============================================================================
+  RESETS
+============================================================================= */
+html,
+body,
+div,
+h1,
+p,
+a,
+video {
+  margin: 0;
+  padding: 0;
+}
+
+/* =============================================================================
+  HTML, BODY
+============================================================================= */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Oxygen", sans-serif;
+  line-height: 1.5;
+}
+
+/* =============================================================================
+  CONTENT
+============================================================================= */
+.content {
+  position: relative;
+  top: 10%;
+  z-index: 2;
+  margin: 0 auto;
+  max-width: 720px;
+  text-align: center;
+}
+
+
+.content__heading {
+  margin-bottom: 60px;
+  color: #990099;
+  font-size: 50px;
+}
+
+.content__teaser {
+  margin-bottom: 40px;
+  color: #990099;
+  font-size: 25px;
+}
+
+.content__cta {
+  display: inline-block;
+  margin: 0;
+  padding: 12px 50px;
+  color: #ff3c64;
+  font-size: 22px;
+  text-decoration: none;
+  border: solid 4px #ff3c64;
+    
+}
+
+.footer {
+width:100%;
+position:relative;
+text-align: center;
+left:10px;
+right:100px;
+font-size: 14px;
+color: #990099;
+bottom:5px;
+height:10px;
+z-index: -1;
+}
+
+.content_foot {
+width:100%;
+position:relative;
+text-align: center;
+left:10px;
+right:100px;
+font-size: 14px;
+color: #990099;
+bottom:10px;
+height:100px;
+z-index: -1;
+}
+
+.content__cta2{
+	text-decoration: none;
+width:100%;
+position:absolute;
+text-align: center;
+left:10px;
+right:100px;
+font-size: 14px;
+color: #990099;
+bottom:0px;
+height:100px;
+z-index: -1;
+}
+
+  
+/* =============================================================================
+  VIDEO
+============================================================================= */
+.video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
